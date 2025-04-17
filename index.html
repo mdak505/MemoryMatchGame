@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Match Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>🧠 Memory Match Game</h1>
+    <div id="info">
+      <span>Level: <span id="level">1</span></span>
+      <span>Time: <span id="timer">0</span>s</span>
+      <span>Matches: <span id="score">0</span></span>
+    </div>
+    <div id="game-board" class="board"></div>
+    <div id="message"></div>
+    <button onclick="startGame()">🔁 Start / Next Level</button>
+  </div>
+
+  <audio id="match-sound" src="https://www.soundjay.com/buttons/sounds/button-4.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
